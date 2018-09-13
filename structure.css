@@ -39,10 +39,9 @@ main {
 	color: #d8d8d8;
 }
 
-#brand {
-	float:left;
-	margin-top: 10px;
-	padding-left: 20px;
+.contact {
+	float:right;
+	color: #ffffff;
 }
 
 .navbar-nav.navbar-center {
@@ -135,6 +134,10 @@ main {
   -ms-transform: translate(-50%, -50%)
 }
 
+.middle a:hover {
+	text-decoration: none;
+}
+
 .container:hover .image {
   opacity: 0.3;
 }
@@ -202,7 +205,7 @@ main {
 @media screen and (max-width: 767px) {
 	
 	#topdiv {
-		height: 145px;
+		height: 190px;
 	}
 	
 	.navbar-header a {
