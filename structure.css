@@ -6,8 +6,11 @@ h2 {text-align: center;color: #262626;}
 
 li {list-style-type: none; margin: 25px 0px 5px 0px; padding-left: 20px;}
 
-p {margin: 10px;font-family:'Montserrat';color: #262626;}
+p {margin: 10px;color: #262626;}
 
+.row-margin {
+	margin: 150px 0px;
+}
 
 main {
 	width: 100%;
@@ -54,7 +57,7 @@ main {
 	margin-left: auto; 
 	margin-right: auto; 
 	text-align: center;
-	height: 725px;
+	height: 425px;
 	width: 100%;
 	background: url(Death_to_stock_communicate_hands_11LessBright.jpg);
 	background-position: center;
@@ -65,36 +68,24 @@ main {
 }
 
 #banner1h1 {
+	font-family: 'Bitter';
 	color: #ffffff;
-	font-size: 50px;
+	font-size: 60px;
+	letter-spacing: 2px;
 	position: absolute;
 	top: 20%;
 	left: 50%;
 	transform: translate(-50%);
 }
 	
-.leftside {
-	float: left;
-	width: 45%;
-	margin-bottom: 20px;
-	padding: 10px;	
-}
-
-.rightside {
-	float: right;
-	width: 45%;
-	margin-bottom: 20px;
-	padding: 10px;
-}
-
 .banner2 {
 	position: relative;
 	margin-left: auto; 
 	margin-right: auto; 
 	text-align: center;
-	height: 325px;
+	height: 125px;
 	width: 100%;
-	background: url(Death_to_stock_communicate_hands_5LessBright.jpg);
+	background: url(Death_to_stock_communicate_hands_11LessBright.jpg);
 	background-position: center;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
@@ -103,17 +94,13 @@ main {
 }
 
 #banner2h2 {
+	font-family: 'Bitter';
 	position: absolute;
 	color: #ffffff;
 	letter-spacing: 2px;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-
-.container {
-    position: relative;
-    width: 50%;
 }
 
 .image {
@@ -124,17 +111,48 @@ main {
   transition: .5s ease;
 }
 
-.middle {
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.textoverlay {
+	color: #cccccc;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.textoverlay h2 {
+	color: white;
+	font-family: 'Bitter';
+	font-style: normal;
+}
+
+.projectbutton {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
 }
 
-.middle a:hover {
+.projectbutton a {
+	text-decoration: none;
+}
+
+.projectbutton a:hover {
+	text-decoration: none;
+}
+
+.projectbutton a:visited {
 	text-decoration: none;
 }
 
@@ -142,46 +160,39 @@ main {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.container:hover .projectbutton {
   opacity: 1;
 }
 
-.text {
+.container:hover .overlay {
+	opacity: 0.8;
+	transition: .5s ease;
+  }
+
+.textbutton {
   background-color: #FF5F66;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+  transition: .5s ease;
+}
+
+.textbutton:hover {
+	background-color: red;
+	transition: .5s ease;	
 }
 
 .VideoContainer {
 	text-align:center;
 	width: 100%;
 	height:450px;
+	margin: 150px 0px;
 }
 	
 .responsiveVideo {
 	width: 50%;
 	height: 100%;
 	border: 0;
-}
-
-#bottomcontainer {
-	
-	width: 80%;
-	margin-left: auto; 
-	margin-right: auto;
-	
-}
-
-#css-table {
-	display: table; 
-	border: 1px dotted rgb(217,237,249); 
-	width: 80%; 
-	margin-top: 50px; 
-	margin-bottom: 50px; 
-	margin-left: auto; 
-	margin-right: auto;
-	clear: both;
 }
 
 .pagefooter {
@@ -220,18 +231,6 @@ main {
 	
 	#banner1h1 {
 	font-size: 35px;
-	}
-	
-	.leftside {
-		width: 95%;
-		padding: 10px;	
-		float: left;
-	}
-
-	.rightside {
-		width: 95%;
-		padding: 10px;
-		clear: both;
 	}
 		
 	.VideoContainer {
