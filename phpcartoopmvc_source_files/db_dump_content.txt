@@ -1,0 +1,20 @@
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` VALUES(1, 'Toys');
+INSERT INTO `categories` VALUES(2, 'Electronics');
+INSERT INTO `categories` VALUES(3, 'Clothing');
+
+
+
+--
+-- Dumping data for table `products`
+--
+
+INSERT INTO `products` VALUES(1, 1, 'Beach Toys', 'Beach toys description here.', 8.99, 'product_beachtoys.jpg');
+INSERT INTO `products` VALUES(2, 1, 'Stuffed Bear', 'Stuffed bear description here.', 15.99, 'product_bear.jpg');
+INSERT INTO `products` VALUES(3, 2, 'Computer Monitor', 'Computer monitor description here.', 299.99, 'product_computermonitor.jpg');
+INSERT INTO `products` VALUES(4, 1, 'Stuffed Hippo', 'Stuffed Hippo description.', 13, 'product_hippo.jpg');
+INSERT INTO `products` VALUES(5, 1, 'Stuffed Reindeer', 'Reindeer description here.', 14.49, 'product_reindeer.jpg');
+INSERT INTO `products` VALUES(6, 2, 'Headphones', 'Headphones description here', 19.99, 'product_headphones.jpg');

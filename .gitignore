@@ -1,1 +1,5 @@
 PortfolioWebsite.code-workspace
+phpcartoopmvc_source_files/app/vendor/*
+phpcartoopmvc_source_files/app/PayPal.log
+phpcartoopmvc_source_files/resources.txt
+phpcartoopmvc_source_files/roadmap.txt
