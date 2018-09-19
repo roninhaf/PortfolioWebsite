@@ -114,11 +114,12 @@ main {
 }
 
 .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
+	text-align: center;
+	opacity: 1;
+	display: block;
+	width: 50%;
+	height: auto;
+	transition: .5s ease;
 }
 
 .overlay {
@@ -132,7 +133,8 @@ main {
 	transition: .5s ease;
 }
 
-.textoverlay {
+.textoverlay p {
+	text-align: left;
 	color: #cccccc;
 	font-size: 16px;
 	font-style: italic;
@@ -148,7 +150,7 @@ main {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   -ms-transform: translate(-50%, 0%);
   transform: translate(-50%, 0%);
