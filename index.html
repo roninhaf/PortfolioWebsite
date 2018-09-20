@@ -47,13 +47,6 @@
 	<div id="home"></div> 
     <nav  id="topdiv">
 		<div class="container-fluid">
-			<div class="contact">
-				Contact : 514-754-5693 roninhaf@gmail.com
-			</div>
-			<div class="navbar-header">
-				<a href="#">Hafid Feghouli</a>
-			</div>
-			
 			<ul class="navbar-nav navbar-center">
 				<li><a href="#home">Home</a></li>
 				<li><a href="#projects">Projects</a></li>
@@ -70,7 +63,7 @@
         
         <div class="row-margin welcometext">
 			<h1> Welcome.</h1>
-			<h3>My name is <b>Hafid Feghouli</b> and this website is dedicated to showcase my past work and projects.</h3>
+			<h3>My name is <b><span style="color:rgb(255, 81, 0)">Hafid Feghouli</span></b> and this website is dedicated to showcase my past work and projects.</h3>
 			<div id="projects"></div>	
         </div>
 		
@@ -80,36 +73,53 @@
         
 		<div class="row row-margin">
 			<div class="container col-xs-12 col-md-6 ">
-				<div class="image "><img src="AgencePeanut_Filter.png" height="400" alt="AgencePeanut"></div>
+				<img class="image"src="AgencePeanut_Filter.png" alt="AgencePeanut">
 				<a href="https://agencepeanut.com/nos-artistes/" target="_blank">
 					<div class="overlay">
-						<div class="textoverlay"><h2>Peanut Agency</h2><p>Problem : The owner and the users use a filter too simple for their need on a Wordpress website.<br>Solution: I used Javascript to add conditions and improve the feature.<br>Outcome: The workflow is much improved and the feature a lot more practical.</p></div>
+						<div class="textoverlay"><h2>Peanut Agency</h2><p><b>Problem :</b> The owner and the users use a filter too simple for their need on a Wordpress website.<br><b>Solution :</b> I used Javascript to add conditions and improve the feature.<br><b>Outcome :</b> The workflow is much improved and the feature a lot more practical.</p></div>
 					</div>
-					<div class="projectbutton">
+					<!--<div class="projectbutton">
 						<a href="https://agencepeanut.com/nos-artistes/" target="_blank"><div class="textbutton">View Project</div></a>
-					</div>
+					</div>-->
 				</a>
 			</div>
 			<div class="container col-xs-12 col-md-6 ">
-				<div class="image img-responsive"><img src="AgencePeanut_Filter.png" height="400" alt="AgencePeanut"></div>
+				<img class="image" src="AgencePeanut_Filter.png" alt="AgencePeanut">
 				<a href="phpcartoopmvc_source_files/index.php" target="_blank">
 					<div class="overlay">
-						<div class="textoverlay"><h2>Shopping Cart</h2><p>This shopping cart allows many orders in different categories of items and uses the Paypal API in sandbox mode. It is connected to a database for CRUD operations. Made with OOP in PHP and MVC.</p></div>
+						<div class="textoverlay"><h2>Shopping Cart</h2><p>This a working demo in sandbox mode. This shopping cart allows many orders in different categories of items and uses the Paypal API in sandbox mode. It is connected to a database for CRUD operations. Made with OOP in PHP and MVC.</p></div>
 					</div>
-					<div class="projectbutton">
+					<!--<div class="projectbutton">
 						<a href="phpcartoopmvc_source_files/index.php" target="_blank"><div class="textbutton">View Project</div></a>
-					</div>
+					</div>-->
 				</a>
 			</div>
 		</div>		   
-            
+			
         <div class="banner2">
             <h2 id="banner2h2">About:</h2>
         </div>
 
         <div class="VideoContainer" id="about">
                 <iframe class="responsiveVideo" width="560" height="315" src="https://www.youtube.com/embed/6jm4HXMa5vE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+				<div class="contact">
+					<table>
+						<tr>
+							<th>Contact:</th>
+						</tr>
+						<tr>
+							<th>Phone:</th>
+							<td><span style="color:rgb(255, 81, 0)">514.754.5693</span></td>
+						</tr>
+						<tr>
+							<th>Email:</th>
+							<td><a href="mailto:roninhafATgmailDOTcom" onclick="this.href=this.href.replace(/AT/,'@').replace(/DOT/,'.')" style="color:rgb(255, 81, 0)">roninhaf@gmail.com</a></td>
+						</tr>
+					</table>
+				</div>
+		</div>
+		
+		
         
         <div class="pagefooter">All rights reserved.</div>
             
