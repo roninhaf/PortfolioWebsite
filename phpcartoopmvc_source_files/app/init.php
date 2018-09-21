@@ -18,8 +18,8 @@ ini_set('display_errors', 1);
 
 // set up constants
 define('SITE_NAME', 'My Online Store');
-define('SITE_PATH', 'http://hafidfeghouli.com/phpcartoopmvc_source_files/');
-define('IMAGE_PATH', 'http://hafidfeghouli.com/phpcartoopmvc_source_files/resources/images/');
+define('SITE_PATH', 'https://hafidfeghouli.com/phpcartoopmvc_source_files/');
+define('IMAGE_PATH', 'https://hafidfeghouli.com/phpcartoopmvc_source_files/resources/images/');
 
 define('SHOP_TAX', '0.0875');
 
