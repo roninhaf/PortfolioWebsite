@@ -43,6 +43,10 @@ main {
 	color: #d8d8d8;
 }
 
+#topdiv a:visited {
+	/*border-style: solid;*/
+}
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -77,10 +81,12 @@ main {
 .welcometext {
 	text-align: center;
 	font-family: 'Bitter';
+	color: #525252;
 }
 
 .welcometext h1 {
 		font-size: 50px;
+		color: black;
 }
 	
 .banner2 {
@@ -181,6 +187,8 @@ main {
 
 .container p {
 	font-family: 'Bitter';
+	font-size: 20px;
+	color: #525252;
 }
 
 .textbutton {
@@ -221,7 +229,7 @@ main {
 }
 
 .contact a {
-	color: #262626;
+	color: #525252;
 }
 
 .pagefooter {
@@ -274,6 +282,11 @@ main {
 	.textoverlay p {
 		display: none;
 	}
+
+	.projectbutton {
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 1546px) {
